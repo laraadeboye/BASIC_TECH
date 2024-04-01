@@ -1,0 +1,3 @@
+[submodule "bashscript_repo"]
+	path = bashscript_repo
+	url = git@github.com:laraadeboye/bashscript_repo.git
