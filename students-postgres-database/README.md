@@ -1,5 +1,5 @@
 
-# Learn SQL By Building a Student Database (Learning from freecodecamp)
+# Learn SQL By Building a Student Database
 
 **Disclaimer:** This README.md is for my personal references. It is not in anyway an attempt to reproduce the work of freecodecamp.org. To get access to free trainings on Databases, visit [freecodecamp](https://www.freecodecamp.org/)
 
