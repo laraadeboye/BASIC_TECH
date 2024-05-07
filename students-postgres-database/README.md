@@ -311,6 +311,15 @@ done
 
 36. Verify and view the content of the pg_dump with the `cat` command.
 
+#
+    cat students.sql
+
+37. To rebuild the database from the pg_dump file:
+#
+    psql -U postgres < students.sql
+
+
+
  
 **Notes**
 The MAJOR variable is only being set to the first word. There's a default IFS variable in bash. IFS stands for "Internal Field Separator". View it with `declare -p IFS`. 
