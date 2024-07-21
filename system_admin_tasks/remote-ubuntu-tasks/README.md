@@ -70,6 +70,7 @@ sudo systemctl status postgresql
 ```
 
 7. Check the logs of activities on a linux ubuntu server
+
 1. Check System logs
 - Syslog: general system logs
 ```sh
