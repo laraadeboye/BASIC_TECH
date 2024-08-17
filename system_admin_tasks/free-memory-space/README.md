@@ -1,5 +1,6 @@
 # Swap memory
-When memory is a constraint in a server where memory is used up fast, the following these steps will create and activate a swap file which helps to manage memory more effectively on your system. This can prevent issues if your physical memory is exhausted especially when running memory-intensive applications and you are low on memory. Swap can act as a safety net to handle memory spickes
+When memory is a constraint in a server where memory is used up fast, the following these steps will create and activate a swap file which helps to manage memory more effectively on your system. This can prevent issues if your physical memory is exhausted especially when running memory-intensive applications and you are low on memory. Swap can act as a safety net to handle memory spikes. 
+If a system is running low on RAM and doessnt have sufficient swap space, `kswapd`, a virtual management kernel thread is enabled which indicates that the system memory is under memory pressure and is relying heavily on swap space. To limit this, a swapfile can be created on the server.  `htop` or `top` command can help to detect the kswapd activity. (Make sure to also reduce the swappiness of the kernel after creating the swapfile. This is show below.)
 
 ## Steps 
 *  Check current swap status (No output means that there is no swapfile on the server)
