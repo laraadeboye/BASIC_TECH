@@ -45,7 +45,7 @@ sudo swapon /swapfile
 sudo swapon --show
 free -h
 ```
-* Make the swap permanent and persisit after a reboot.
+* Make the swap permanent and persist after a reboot.
 
 ```sh
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
